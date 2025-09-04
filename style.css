@@ -1,0 +1,259 @@
+@font-face {
+    font-family: "font" ;
+    src: url( "font/NotoSerifGeorgian_Condensed-Bold.ttf" );
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+section{
+    margin-top: 30px;
+   
+}
+header{
+    padding-top: 10px;
+    margin: 0px 20px 0px 20px;
+}
+
+header,.nav-bar ul {
+    display: flex;
+}
+.nav-bar ,.nav-bar ul {
+    align-items: center;
+}
+header {
+    justify-content: space-between;
+}
+
+.nav-bar ul{
+gap: 20px;
+}
+header img{
+    width: 88px;
+    height: 22px;
+}
+a{
+    color: rgb(12, 12, 12);
+}
+a:hover{
+    color: rgba(53, 45, 45, 0.522);
+}
+i:hover{
+    color: rgb(75, 72, 72);
+}
+
+#search{
+
+border-radius: 20px;
+background-color: rgba(237, 96, 157, 0.479);
+border: none;
+padding: 5px;
+}
+.section-bar img{
+    border-radius: 20px;
+}
+.section-bar{
+    position: relative;
+    text-align: center;
+
+}
+.box-two h1{
+
+    position: absolute;
+    top: 0px;
+    left: 198px;
+    width: 299px;
+    height: 100px;
+    border-radius: 1px;
+    background-color: white;
+}
+.box-three p{
+    position: absolute;
+    bottom: 0px;
+    right:  390px;
+    width: 447px;
+    height: 90px;
+    border-radius: 5px;
+    background-color: white;
+    font-family: "font";
+    font-size: small;
+    text-align: justify;
+}
+.box-four i{
+    position: absolute;
+    bottom: 3px;
+    left:  188px;
+     
+    border-radius: 50px;
+    padding: 20px;
+    color: white;
+   background-color: black;
+}
+.blok{
+   
+    width: 1136px;
+    height: 285px;
+   background: linear-gradient(rgb(44, 41, 41) , rgb(72, 74, 72));
+   border-radius: 20px;
+}
+.section-one{
+    margin: 0;
+    margin-top: 30px;
+    display: grid;
+    place-items: center; /* ცენტრში განთავსება */
+        
+ 
+  
+}
+.blok{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div-one{
+    color: white;
+    text-align: center;
+}
+.div-one h1{
+    margin: 15px 0 15px 0;
+}
+.section-two{
+    margin: 0;
+    margin-top: 30px;
+    display: grid;
+    place-items: center; /* ცენტრში განთავსება */
+        
+ 
+}
+.imgs img{
+    width: 540px;
+      border-radius: 20px; 
+  margin-bottom: 20px;
+  
+
+}
+.block-one{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+   
+}
+.img img{
+    height: 96%;
+    width: 600px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.img{
+    position: relative;
+
+}
+.box-o{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.butto{
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(240, 152, 152);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+    border: none;
+    margin-top: 5px;
+}
+.section-bloch-child{
+    display: flex;
+}
+.section-bloch-child{
+    align-items: center;
+}
+.section-bloch-child{
+    justify-content: space-around;
+}
+.section-block{
+   margin-top: 30px;
+
+    
+}
+.box-one button{
+    border: 1px solid rgba(170, 170, 170, 1);
+    border-radius: 10px;
+    padding: 10px;
+  
+    background-color:white;
+}
+.box-one a{
+    color: rgba(170, 170, 170, 1);
+}
+.box-one button:hover{
+    background-color: black;
+}
+.headr-section h1{
+    font-size: 40px;
+
+}
+.headr-section p{
+    font-size: 16px;
+    color: rgba(136, 136, 136, 1);
+}
+#section-bloch-child-one img{
+    width: 300px;
+    height: 300px;
+}
+#section-bloch-child-one{
+    display: flex;
+
+}
+#section-bloch-child-one{
+   margin-top: 20px;
+    justify-content: center;
+    gap: 50px;
+}
+.childre-img {
+text-align: center;
+}
+.footer-one-childer img{
+    width: 150px;
+}
+.footer-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.list-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(195, 170, 170);
+    padding-bottom: 20px;
+}
+.hrone hr{
+  border: 1px solid black;
+  width: 90%;
+  margin: 0 auto;
+ 
+ 
+  
+}
+.footer-one-childer p{
+ margin-bottom: 20px;
+ 
+}
+.footer-one-childer i{
+    margin-bottom: 20px;
+}
